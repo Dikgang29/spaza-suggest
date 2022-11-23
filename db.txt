@@ -1,0 +1,20 @@
+
+GRANT ALL PRIVILEGES on TABLE reg_numbers TO reg_admin;
+     GRANT ALL PRIVILEGES on SEQUENCE reg_numbers_id_seq TO reg_admin;
+
+
+
+GRANT ALL PRIVILEGES on TABLE accepted_suggestion TO zuggs;
+GRANT ALL PRIVILEGES on TABLE suggestion TO zuggs;
+GRANT ALL PRIVILEGES on TABLE spaza TO zuggs;
+GRANT ALL PRIVILEGES on TABLE spaza_client TO zuggs;
+GRANT ALL PRIVILEGES on TABLE area TO zuggs;
+
+
+ GRANT ALL PRIVILEGES on SEQUENCE spaza_client_id_seq TO zuggs;
+
+ GRANT ALL PRIVILEGES on SEQUENCE accepted_suggestion_id_seq TO zuggs;
+
+ GRANT ALL PRIVILEGES on SEQUENCE suggestion_id_seq TO zuggs;
+
+ GRANT ALL PRIVILEGES on SEQUENCE spaza_id_seq TO zuggs;
